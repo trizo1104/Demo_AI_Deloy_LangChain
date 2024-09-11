@@ -89,5 +89,5 @@ def slack_events():
 
 # Run the Flask app
 if __name__ == "__main__":
-    logging.info("Starting the Flask app")
+    # logging.info("Starting the Flask app")
     flask_app.run(host="0.0.0.0", port = 8000)
